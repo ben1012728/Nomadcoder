@@ -2,16 +2,25 @@ body{
     background-color:white;
 }
 
-btn {
+.btn {
     cursor: pointer;
   }
   
 
-h1{
+body{
     color:#ffbe76;
     transition: color 0.5s ease-in-out;
 }
 
 .clicked{
     color:#ffbe76
+}
+
+.form,
+.greetings{
+    display: none;
+}
+
+.showing{
+ display: block;
 }
